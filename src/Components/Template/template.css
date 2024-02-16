@@ -1,0 +1,72 @@
+.templates {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  .template {
+    height: 300px;
+    width: 200px;
+    margin: 50px;
+    position: relative;
+    transition: 0.5s transform;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px 0px rgb(192 164 197);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .template-image {
+    height: 90%;
+  }
+  .template-image img {
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .choose-template {
+    position: absolute;
+    top: 50%;
+    left: 15%;
+   
+    padding: 5px;
+    background: #0D6EFD;
+    border-radius: 10px;
+    color: white;
+    display: none;
+    cursor: pointer;
+    font-size: 15px;
+    width:70%
+  }
+  
+  .template:hover .choose-template {
+    /* transform: scale(1.2); */
+    display: block;
+  }
+  
+  .template-image img:hover {
+    opacity: 1;
+  }
+  .templates-container {
+  }
+  .templates-welcome {
+    /* background-color: red; */
+    height: 40vh;
+    background-image: url("../assests/images//bread.jpg");
+  }
+  .temp-wel-cont {
+    height: 100%;
+    width: 100%;
+    /* background: wheat; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .temp-wel-cont h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+  }
+  

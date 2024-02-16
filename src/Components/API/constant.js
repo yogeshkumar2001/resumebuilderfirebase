@@ -1,0 +1,1 @@
+export const APIURL = "https://resume-builder-backend-1y1f.onrender.com"

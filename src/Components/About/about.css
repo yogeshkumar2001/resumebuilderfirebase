@@ -1,0 +1,210 @@
+.about-us-container {
+    /* background: red; */
+    /* height: 300vh; */
+  }
+  .about-bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    background-image: url("../assests//images//bread.jpg");
+  }
+  .about-bg h1 {
+    color: white;
+    font-size: 50px;
+  }
+  .whoWe-section {
+    display: flex;
+    justify-content: center; /* Center the flex items horizontally */
+    align-items: center; /* Center the flex items vertically */
+}
+
+  
+    @media screen and (max-width:500px) {
+      .whoWe-section {
+        display: block;
+      }
+      .whoWe-left-col {
+        width: 100% !important;
+        /* margin-left: 0% !important; */
+      }
+      .whoWe-right-col {
+        width: 100% !important;
+        
+      }
+      .choose-us{
+        display:block !important;
+      }
+      .choose-us-left{
+        width:100% !important;
+        /* margin-left: 0% !important; */
+      } 
+      .choose-us-right{
+        width:100% !important;
+      }
+    }
+  .whoWe-section h4 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #3c86f9;
+  }
+  .whoWe-left-col {
+    /* background-color: pink; */
+    width: 50%;
+    /* margin-left: 5%; */
+  }
+  .whoWe-right-col {
+    /* background-color: rgb(218, 39, 69); */
+    width: 50%;
+  }
+  .dream-dots {
+    display: flex;
+    margin-top: 20px;
+  }
+  .dream-dots span {
+    width: 8px;
+    height: 8px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-right: 5px;
+  }
+  
+  .dream-dots span:first-child {
+    background-color: #00a8ff;
+  }
+  .dream-dots span:nth-child(2) {
+    background-color: #9c88ff;
+  }
+  .dream-dots span:nth-child(3) {
+    background-color: #fbc531;
+  }
+  .dream-dots span:nth-child(4) {
+    background-color: #4cd137;
+  }
+  .dream-dots span:nth-child(5) {
+    background-color: #487eb0;
+  }
+  .dream-dots span:nth-child(6) {
+    background-color: #e84118;
+  }
+  .dream-dots span:nth-child(7) {
+    background-color: #8c7ae6;
+  }
+  .side-feature-list-item {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+  }
+  .check-mark-icon {
+    margin-right: 16px;
+    width: 30px;
+    height: 30px;
+  }
+  img {
+    height: auto;
+    max-width: 100%;
+  }
+  .foot-c-info {
+    font-weight: 500;
+    font-size: 20px;
+  }
+  /* "visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;" */
+  .choose-us {
+    /* background-color: yellow; */
+    height: 25%;
+    width: 100%;
+    display: flex;
+    background: url("http://localhost:3000/images/benefits-bg.svg") no-repeat center left;
+  }
+  .choose-us-left {
+    width: 40%;
+    /* background: pink; */
+    margin-left: 5%;
+    height: 100%;
+  }
+  .choose-us-right {
+    width: 40%;
+    margin-left: 10%;
+  }
+  .demo-video.feat .services-block-four {
+    padding: 25px 20px 15px;
+    margin-bottom: 20px;
+    background: #fff;
+    border: 1px solid #eee;
+    
+  }
+  .inner-box {
+    position: relative;
+    padding-left: 87px;
+  }
+  .icon-img-box {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  img {
+    max-width: 100%;
+    height: jh;
+  }
+  .services-block-four {
+    padding: 25px 20px 15px;
+    margin-bottom: 20px;
+    background: #fff;
+    border: 1px solid #eee;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  .services-block-four .inner-box h3 {
+    position: relative;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+  }
+  .services-block-four .inner-box .text {
+    font-size: 14px;
+    color: #888;
+    margin-top: 8px;
+    margin-bottom: 10px;
+  }
+  .light-version p {
+    color: #888;
+  }
+  .contant-p{
+    line-height: 2rem;
+  }
+  .dream-btn {
+    position: relative;
+    z-index: 1;
+    min-width: 160px;
+    height: 48px;
+    line-height: 48px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 0 20px;
+    text-align: center;
+    text-transform: uppercase;
+    background-size: 200% auto;
+    color: #fff;
+    box-shadow: 0 3ox 20px rgba(0, 0, 0, 0.1);
+    border-radius: 7px;
+    background: rgb(62, 148, 228);
+    -webkit-transition: all 500ms;
+    transition: all 500ms;
+  }
+  .btn {
+    border: 2px solid #007bff;
+  }
+  .btn:not(:disabled):not(.disabled) {
+      cursor: pointer;
+  }

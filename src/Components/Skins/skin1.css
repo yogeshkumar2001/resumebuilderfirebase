@@ -1,0 +1,31 @@
+.box {
+  margin: 10px;
+  text-align: left;
+  /* background-color: red; */
+}
+.main-heading {
+  color: red;
+}
+.main-header {
+  background-color: red;
+  color: white;
+  height: 20%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+.line {
+  height: 2px;
+  background-color: red;
+}
+.skin-container {
+  height: 1167.29px;
+  width: 826.77px;
+}
+.img-resume{
+  position: absolute;
+    height: 1167.29px;
+    width: 826.77px;
+    top: 23%;
+}

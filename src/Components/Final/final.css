@@ -1,0 +1,65 @@
+.resume-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  padding-top: 10px;
+  background: url("/public/final-bg.png");
+  
+}
+
+.resume-template {
+  /* width: 80%;
+  max-width: 800px; */
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.resume-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.download-button,
+.save-button {
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.download-button {
+  /* background-color: #4caf50; */
+  color: #fff;
+  border: none;
+}
+
+.save-button {
+  background-color: #008cba;
+  color: #fff;
+  border: none;
+}
+.card-final {
+  box-sizing: border-box;
+  background: rgba(217, 217, 217, 0.58);
+  border: 1px solid white;
+  box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+  backdrop-filter: blur(6px);
+  border-radius: 17px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  color: black;
+}
+
+/* .card-final:hover {
+  border: 1px solid black;
+  transform: scale(1.05);
+} */
+.profile-bg-img{
+  background: url("/public/profile-bg.png")  no-repeat center center;
+  background-size: cover;
+}
