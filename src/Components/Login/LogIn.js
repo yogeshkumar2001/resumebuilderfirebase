@@ -27,7 +27,7 @@ const LogIn = (props) => {
 
     const onSuccessHandler = async (res) => {
         let userdataObj = await callAPI(res.credential);
-            console.log(userdataObj)
+           
         if (userdataObj.status == 200) {
             props.setUserLoggedIn({ auth: true, id: userdataObj.data["_id"], name: userdataObj.data.name, email: userdataObj.data.email,profileImage:userdataObj.data.imgUrl })
             window.location = "/"
@@ -50,8 +50,7 @@ const LogIn = (props) => {
             let userdataObj = await postCallAPI({
                 path: userLoginPath, Data: {...tempObj}
             });
-            console.log(userdataObj)
-            console.log(props)
+
             if(userdataObj.status==200){
 
                 props.setUserLoggedIn({ auth: true, id: userdataObj.data["_id"], name: userdataObj.data.name, email: userdataObj.data.email })
@@ -107,8 +106,8 @@ const LogIn = (props) => {
                         id="password"
                     />
                 </div>
-                <button title="Sign In" type="submit" className="sign-in_btn">
-                    <span>Sign In</span>
+                <button title="Sign In" type="submit" className="sign-in_btn bg-primary">
+                    <span>Log In</span>
                 </button>
 
                 <div className="separator">

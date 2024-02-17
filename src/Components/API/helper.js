@@ -12,7 +12,7 @@ export const getCallAPI = async ({ path, params = null }) => {
     }
 }
 export const postCallAPI = async ({ path, Data }) => {
-    console.log(path,Data)
+
     if (!Data) {
         return "required data for post call";
     }

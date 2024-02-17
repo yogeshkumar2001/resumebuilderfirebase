@@ -17,7 +17,6 @@ function Details(props) {
     function nextFormHandler(e) {
         e.preventDefault();
         if (e.target[0].id == "achievement") {
-            console.log(e.target[0].id)
             props.setUserFormData(formData)
             // props.increaseStep({ value: 0 });
             // setformStep(0);

@@ -24,7 +24,7 @@ function SignUp(props) {
             return;
         }
         let responseData = await callAPICustom(formDatObj);
-        console.log(responseData)
+     
         if ( responseData.status == 201) {
             props.setUserLoggedIn({ auth: true, id: responseData.data["_id"], name: responseData.data.name, email: responseData.data.email })
             window.location = "/"
@@ -150,7 +150,7 @@ function SignUp(props) {
                         </div>
 
                         <button
-                            className="w-full bg-blue-500 hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center  focus:ring-blue-800 text-white"
+                            className="w-full bg-blue-500 hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center  focus:ring-blue-800 text-white bg-primary"
                             type="submit"
                         >
                             Create an account
